@@ -16,7 +16,6 @@ namespace INVERTIR_NÚMERO_DE_DOS_CIFRAS
                 rem = num % 10;
                 reverse = reverse * 10 + rem;
                 num /= 10;
-                //Console.WriteLine(rem + "\nReverse: " + reverse + "\nnum: " + num);
             }
             Console.WriteLine("Es: " + reverse);
         }
